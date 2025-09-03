@@ -1,0 +1,253 @@
+.section-promo-header__wrap {
+  line-height: 1;
+}
+
+.section-promo-header {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+
+  background-image: linear-gradient(90deg, var(--primary-color), var(--primary-color) 50%, #979797 50%);
+}
+
+@media screen and (max-width: 767px) {
+  .section-promo-header {
+    flex-direction: column;
+    background-image: none;
+  }
+}
+
+.container-lg {
+  width: 100%;
+  max-width: 1300px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .container-lg.container--no-pad {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
+.container-lg.is--relative {
+  position: relative;
+}
+
+.section-promo-header__link {
+  display: block;
+  width: 100%;
+}
+
+@media screen and (min-width: 1280px) {
+  .section-promo-header__link {
+    width: 100%;
+  }
+}
+
+.offer-text {
+  display: grid;
+  width: 100%;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .offer-text {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .offer-text {
+    grid-template-columns: 1fr;
+  }
+}
+
+.offer-text__left {
+  display: flex;
+  padding: 10px 16px 10px 0px;
+  justify-content: flex-end;
+  align-items: center;
+
+  color: var(--white);
+  text-align: right;
+}
+
+@media screen and (max-width: 991px) {
+  .offer-text__left {
+    padding-top: 8px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .offer-text__left {
+    padding-right: 16px;
+    padding-left: 16px;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--primary-color);
+
+    text-align: center;
+  }
+}
+
+.offer-text--lg {
+  display: inline;
+  font-size: 3.7vw;
+  line-height: 1;
+}
+
+.offer-text--lg:lang(es-us) {
+  font-size: 3vw;
+}
+
+@media screen and (max-width: 767px) {
+  .offer-text--lg {
+    font-size: 7.5vw;
+  }
+}
+
+.offer-text--xl {
+  display: inline;
+  font-family: Avenir;
+  font-size: 4.4vw;
+  line-height: 1;
+}
+
+.offer-text--xl:lang(es-us) {
+  font-size: 4vw;
+}
+
+@media screen and (max-width: 767px) {
+  .offer-text--xl {
+    font-size: 8.5vw;
+  }
+}
+
+.offer-text--xl.offer-text--narrow {
+  letter-spacing: -2px;
+}
+
+@media screen and (max-width: 767px) {
+  .offer-text--xl.offer-text--narrow {
+    font-size: 8.8vw;
+  }
+}
+
+.offer-text--narrow {
+  letter-spacing: -1px;
+}
+
+.offer-text--narrow:lang(es-us) {
+  font-size: 2.7vw;
+}
+
+.offer-text--sup {
+  position: relative;
+  top: -10px;
+  font-size: 3.2vw;
+}
+
+.offer-text--sup:lang(es-us) {
+  font-size: 2vw;
+}
+
+@media screen and (max-width: 767px) {
+  .offer-text--sup {
+    font-size: 5.6vw;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .offer-text--sup {
+    top: -8px;
+  }
+}
+
+.offer-text--sub {
+  font-size: 1.8vw;
+}
+
+.offer-text--sub:lang(es-us) {
+  font-size: 1.5vw;
+}
+
+@media screen and (max-width: 767px) {
+  .offer-text--sub {
+    font-size: 4vw;
+  }
+}
+
+.offer-text__right {
+  display: flex;
+  padding: 10px 0px 10px 16px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+
+  color: var(--white);
+}
+
+@media screen and (max-width: 991px) {
+  .offer-text__right {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .offer-text__right {
+    padding-right: 16px;
+    padding-left: 16px;
+    justify-content: center;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+
+    background-color: #979797;
+
+    text-align: left;
+  }
+}
+
+.offer-text--md {
+  font-size: 2vw;
+  letter-spacing: -0.8px;
+}
+
+@media screen and (max-width: 767px) {
+  .offer-text--md {
+    font-size: 4.2vw;
+  }
+}
+
+.offer-text--sm {
+  display: inline;
+  font-size: 1.3vw;
+}
+
+@media screen and (max-width: 767px) {
+  .offer-text--sm {
+    font-size: 2.7vw;
+  }
+}
+
+.section-promo-empty {
+  display: none;
+}

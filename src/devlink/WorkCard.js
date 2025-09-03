@@ -1,0 +1,67 @@
+"use client";
+import React from "react";
+import * as _Builtin from "./_Builtin";
+
+export function WorkCard({
+  as: _Component = _Builtin.Block,
+  image = "https://cdn.prod.website-files.com/65dc50a9ff2046f1c1b27199/6866a44b376445ad3f8b320f_Rectangle%206.webp",
+  imageAltText = "__wf_reserved_inherit",
+  authorImage = "https://cdn.prod.website-files.com/65dc50a9ff2046f1c1b27199/6867a26faeef4f44f7f26d0a_0c2888ef0c53e2145cbdfffe7bd986cb837ae4e9.webp",
+  author = "Tyler Martinez",
+  jobName = "Job name",
+  jobAddress = "City name, State, ZIP code",
+  jobTag = "Walk-in closet",
+  rating = "5.0",
+}) {
+  return (
+    <_Component className="work-card" tag="div">
+      <_Builtin.Block className="work-card__header" tag="div">
+        <_Builtin.Image
+          className="work-card__header__img"
+          loading="lazy"
+          width="auto"
+          height="auto"
+          src={image}
+        />
+        <_Builtin.Block className="work-card__author" tag="div">
+          <_Builtin.Image
+            className="work-card__author__img"
+            loading="lazy"
+            width="auto"
+            height="auto"
+            src={authorImage}
+          />
+          <_Builtin.Block className="work-card__author__name" tag="div">
+            {author}
+          </_Builtin.Block>
+        </_Builtin.Block>
+      </_Builtin.Block>
+      <_Builtin.Block className="work-card__content" tag="div">
+        <_Builtin.Heading className="h9-v2 color-heading-v2" tag="h4">
+          {jobName}
+        </_Builtin.Heading>
+        <_Builtin.Block className="h11-v2 is--blue" tag="div">
+          {jobAddress}
+        </_Builtin.Block>
+        <_Builtin.Block className="work-card__footer" tag="div">
+          <_Builtin.Block className="work-card__label" tag="div">
+            {jobTag}
+          </_Builtin.Block>
+          <_Builtin.Block className="work-card__label rating" tag="div">
+            <_Builtin.Block tag="div">{rating}</_Builtin.Block>
+            <_Builtin.HtmlEmbed
+              className="svg-icon"
+              value="%3Csvg%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20d%3D%22M5.55881%200.286313C5.73987%20-0.0954375%206.26013%20-0.0954375%206.44119%200.286313L7.92067%203.40407C7.99235%203.55524%208.13029%203.66011%208.28967%203.68482L11.579%204.19465C11.9817%204.25707%2012.1423%204.775%2011.8517%205.07334L9.47676%207.51006C9.36173%207.62821%209.30901%207.79787%209.33586%207.96431L9.88913%2011.3971C9.95687%2011.8175%209.53613%2012.1376%209.17525%2011.9403L6.22811%2010.3285C6.08524%2010.2504%205.91476%2010.2504%205.77189%2010.3285L2.82475%2011.9403C2.46387%2012.1376%202.04313%2011.8175%202.11087%2011.3971L2.66414%207.96431C2.69099%207.79787%202.63827%207.62821%202.52323%207.51006L0.148329%205.07334C-0.142346%204.77498%200.0182628%204.25707%200.421019%204.19465L3.71033%203.68482C3.86971%203.66011%204.00765%203.55524%204.07933%203.40407L5.55881%200.286313Z%22%20fill%3D%22%23FFDF28%22%2F%3E%0A%3C%2Fsvg%3E"
+            />
+          </_Builtin.Block>
+        </_Builtin.Block>
+        <_Builtin.Block className="work-card__icon" tag="div">
+          <_Builtin.HtmlEmbed
+            className="svg-icon"
+            value="%3Csvg%20width%3D%2240%22%20height%3D%2240%22%20viewBox%3D%220%200%2040%2040%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.5%22%20y%3D%220.5%22%20width%3D%2239%22%20height%3D%2239%22%20rx%3D%2219.5%22%20stroke%3D%22%2335526A%22%2F%3E%0A%3Cpath%20d%3D%22M28.4851%2019.9998H11.5145%22%20stroke%3D%22%2335526A%22%20stroke-width%3D%221.6%22%20stroke-miterlimit%3D%2210%22%2F%3E%0A%3Cpath%20d%3D%22M20%2028.4852V11.5146%22%20stroke%3D%22%2335526A%22%20stroke-width%3D%221.6%22%20stroke-miterlimit%3D%2210%22%2F%3E%0A%3C%2Fsvg%3E"
+          />
+        </_Builtin.Block>
+      </_Builtin.Block>
+    </_Component>
+  );
+}

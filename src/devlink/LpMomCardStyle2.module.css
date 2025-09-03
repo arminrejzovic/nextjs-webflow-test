@@ -1,0 +1,249 @@
+.splide__slide {
+  position: relative;
+}
+
+.splide__slide.regular {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 304/398;
+  border-radius: 7px;
+}
+
+.splide__slide.grid-ms__item.tall {
+  aspect-ratio: 356/804;
+}
+
+.splide__slide.grid-ms__item.regular {
+  aspect-ratio: 356/398;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.fd-card {
+  position: relative;
+
+  display: flex;
+  overflow: hidden;
+  min-height: 300px;
+  padding: 0.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  aspect-ratio: 1/1;
+
+  border-radius: 8px;
+}
+
+.fd-card:where(.w-variant-c300f950-7813-c72f-ffe0-cd43dd1a22e3) {
+  aspect-ratio: 1/1;
+}
+
+.fd-card.style-2 {
+  min-height: auto;
+  padding: 0rem;
+  justify-content: space-between;
+  aspect-ratio: 317/376;
+}
+
+@media screen and (max-width: 767px) {
+  .fd-card.style-2 {
+    aspect-ratio: 140/232;
+  }
+}
+
+.fd-card__image {
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fd-card__overlay {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 1;
+
+  width: 100%;
+  height: 100%;
+
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), transparent 50%);
+}
+
+.fd-card__overlay.is--gradient {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, transparent 50%, rgba(0, 0, 0, 0.2));
+}
+
+.h6-v2 {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+
+  font-family: var(--heading-font-v2);
+  font-size: 2rem;
+  line-height: 125%;
+  font-weight: var(--font-weight-400);
+}
+
+.h6-v2.is--white {
+  color: var(--off-white-v2);
+}
+
+.is--white {
+  color: var(--grey-white-v2);
+}
+
+.text-align--center {
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .h6-v2.is--white.text-align--center.mobile-h9 {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .h6-v2.is--white.text-align--center.mobile-h9 {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .m-h9 {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .h6-v2.is--white.text-align--center.m-h9.m-black {
+    font-weight: var(--font-weight-900);
+  }
+}
+
+.h6-v2.is--blue {
+  color: var(--heading-color-v2);
+}
+
+.color-heading-v2 {
+  color: var(--heading-color-v2);
+}
+
+@media screen and (max-width: 767px) {
+  .color-heading-v2 {
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .h6-v2.color-heading-v2.text-align--center.mobile-h8 {
+    font-size: 1.5rem;
+    line-height: 180%;
+  }
+}
+
+.weight--medium {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+  .h6-v2.color-heading-v2.weight--medium.mobile-h6-smaller {
+    font-size: 1.25rem;
+  }
+}
+
+.is--red-v2 {
+  color: var(--red-v2);
+}
+
+.h6-v2.is--red-v2.weight--medium {
+  font-weight: 500;
+}
+
+.h6-v2.is--red-v2.weight--medium:where(.w-variant-9c9cc5e3-5d94-82d4-e323-e095138cf1dc) {
+  color: var(--pink-v2);
+}
+
+.weight--black {
+  font-weight: 900;
+}
+
+.is--white-v2 {
+  color: var(--off-white-v2);
+}
+
+.h6-v2.is--white-v2.relative {
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (max-width: 991px) {
+  .h6-v2.is--white-v2.text-align--center {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .h6-v2.is--white-v2.text-align--center {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .h6-v2.is--white-v2.is--mob-smaller {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .h6-v2.is--white-v2.m-text-align--left {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .m-text-align--left {
+    text-align: left;
+  }
+}
+
+.is--black-v2 {
+  color: var(--black-v2);
+}
+
+@media screen and (max-width: 991px) {
+  .h6-v2.text-align--center.mobile-h8-v2 {
+    font-size: 1.5rem;
+  }
+}
+
+.is-summer-red {
+  color: var(--summer-red-v2);
+}
+
+@media screen and (max-width: 479px) {
+  .h6-v2.text-align--center.is-summer-red.m-text-align--left.mw-250 {
+    max-width: 250px;
+  }
+}
+
+.is--red-brown-v2 {
+  color: var(--red-brown-v2);
+}
+
+.is--blue-v2 {
+  color: var(--blue-v2);
+}
+
+.is-summer-turqoise {
+  color: var(--summer-turqoise);
+}
+
+#w-node-_7d8be14a-b8b1-008c-fd7b-b677c58797f0-c58797f0 {
+}

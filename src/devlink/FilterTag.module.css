@@ -1,0 +1,16 @@
+.filter-tag {
+  display: flex;
+  padding: 0.5625rem 1rem;
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 0.25rem;
+  grid-row-gap: 0.25rem;
+
+  border: 1px solid var(--light-grey-v2);
+  border-radius: 100px;
+
+  color: var(--black-v2);
+  font-size: 0.75rem;
+  line-height: 100%;
+  white-space: nowrap;
+}

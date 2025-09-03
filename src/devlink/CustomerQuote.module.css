@@ -1,0 +1,40 @@
+.customers-quotes__item {
+  display: flex;
+  padding: 32px 16px 16px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+
+  border-radius: 8px;
+
+  background-color: var(--grey-white-v2);
+
+  color: var(--black-v2);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.splide__slide {
+  position: relative;
+}
+
+.customers-quotes__top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+
+  color: var(--heading-color-v2);
+  font-size: 1.25rem;
+  line-height: 100%;
+  font-weight: var(--font-weight-900);
+}
+
+.star-rating {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,31 @@
+import * as React from "react";
+import * as Types from "./types";
+
+declare function SectionsImagesGridV2(props: {
+  as?: React.ElementType;
+  sectionHeaderV2Variant?: "Base" | "Long Title";
+  sectionHeaderV2Label?: React.ReactNode;
+  sectionHeaderV2HideTitle?: Types.Visibility.VisibilityConditions;
+  sectionHeaderV2Title?: React.ReactNode;
+  sectionHeaderV2HideIntroText?: Types.Visibility.VisibilityConditions;
+  sectionHeaderV2IntroText?: React.ReactNode;
+  sectionHeaderV2IntroTextMobile?: React.ReactNode;
+  sectionHeaderV2ShowScrollIcon?: Types.Visibility.VisibilityConditions;
+  sectionHeaderV2ShowLink?: Types.Visibility.VisibilityConditions;
+  sectionHeaderV2BtnText?: React.ReactNode;
+  sectionHeaderV2BtnLink?: Types.Basic.Link;
+  sectionHeaderV2Show2ndIntro?: Types.Visibility.VisibilityConditions;
+  sectionHeaderV2SecondIntroText?: React.ReactNode;
+  cardImageTextV21Image?: Types.Asset.Image;
+  cardImageTextV21Title?: React.ReactNode;
+  cardImageTextV21Subtitle?: React.ReactNode;
+  cardImageTextV21Text?: React.ReactNode;
+  cardImageTextV21Link?: Types.Basic.Link;
+  cardImageTextV21LinkText?: React.ReactNode;
+  cardImageTextV22Image?: Types.Asset.Image;
+  cardImageTextV22Title?: React.ReactNode;
+  cardImageTextV22Subtitle?: React.ReactNode;
+  cardImageTextV22Text?: React.ReactNode;
+  cardImageTextV22Link?: Types.Basic.Link;
+  cardImageTextV22LinkText?: React.ReactNode;
+}): React.JSX.Element;

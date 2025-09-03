@@ -1,0 +1,21 @@
+.header-spacer {
+  height: var(--header-height);
+}
+
+@media screen and (max-width: 991px) {
+  .header-spacer {
+    height: var(--header-height-tablet);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header-spacer {
+    height: var(--header-height-mobile);
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .header-spacer {
+    height: var(--header-height-mobile);
+  }
+}

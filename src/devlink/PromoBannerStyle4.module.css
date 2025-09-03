@@ -1,0 +1,132 @@
+.promo-banner3__top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  background-color: var(--red-v2);
+}
+
+@media screen and (max-width: 767px) {
+  .promo-banner3__top {
+    display: flex;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--red-v2);
+  }
+}
+
+.promo-banner3__top.blue {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: var(--heading-color-v2);
+}
+
+.pb-top {
+  display: flex;
+  align-items: center;
+  grid-column-gap: 0.25rem;
+  grid-row-gap: 0.25rem;
+}
+
+.pb-top.type-2 {
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
+}
+
+.pb-top__l {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.pb-top__number {
+  color: var(--off-white-v2);
+  font-size: 4rem;
+  line-height: 100%;
+  font-weight: var(--font-weight-900);
+  letter-spacing: -3px;
+}
+
+.pb-top__number.type-2 {
+  font-size: 3.25rem;
+  letter-spacing: 0px;
+}
+
+.pb-top__r {
+  position: relative;
+  top: 3px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.pb-top__r.type-2 {
+  top: 0px;
+  align-items: flex-start;
+}
+
+.pb-top__free {
+  color: var(--off-white-v2);
+  font-size: 2.7rem;
+  font-weight: 700;
+}
+
+.pb-top__free.type-2 {
+  font-size: 2.25rem;
+  font-weight: var(--font-weight-900);
+}
+
+.pb-top__installation {
+  color: var(--off-white-v2);
+  font-size: 0.95rem;
+  line-height: 110%;
+}
+
+.pb-top__installation.type-2 {
+  font-size: 0.75rem;
+  font-weight: var(--font-weight-900);
+  letter-spacing: 0.25px;
+}
+
+.promo-banner3__bottom {
+  display: flex;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+
+  background-image: linear-gradient(115deg, rgba(115, 115, 115, 0.4), rgba(115, 115, 115, 0.2));
+}
+
+.promo-banner3__bottom.type-2 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.pb-bot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 0.3rem;
+  grid-row-gap: 0.3rem;
+}
+
+.pb-bot__text-full {
+  color: var(--black-2-v2);
+  font-size: 0.75rem;
+  line-height: 100%;
+  font-weight: 500;
+}

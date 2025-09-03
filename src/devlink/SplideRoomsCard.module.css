@@ -1,0 +1,22 @@
+.splide__slide {
+  position: relative;
+}
+
+.splide__slide.regular {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 304/398;
+  border-radius: 7px;
+}
+
+.splide__slide.grid-ms__item.tall {
+  aspect-ratio: 356/804;
+}
+
+.splide__slide.grid-ms__item.regular {
+  aspect-ratio: 356/398;
+}
+
+.h-100 {
+  height: 100%;
+}

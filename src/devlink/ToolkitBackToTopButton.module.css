@@ -1,0 +1,99 @@
+.toolkit-up {
+  position: fixed;
+  right: 0px;
+  bottom: 4rem;
+  z-index: 501;
+}
+
+@media screen and (max-width: 767px) {
+  .toolkit-up {
+    bottom: 10%;
+  }
+}
+
+.toolkit-menu__up {
+  padding: 0.55rem;
+
+  border: 1px solid var(--light-grey-v2);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+
+  background-color: rgba(0, 0, 0, 0.3);
+
+  transition: all 300ms ease;
+
+  font-size: 2.5rem;
+
+  cursor: pointer;
+}
+
+.toolkit-menu__up:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.svg-icon {
+  display: flex;
+  width: 1em;
+  height: 1em;
+  justify-content: center;
+  align-items: center;
+
+  pointer-events: none;
+
+  font-size: 1em;
+}
+
+.svg-icon.dropdown-v2-menu-icon {
+  width: auto;
+  height: 50px;
+}
+
+.dropdown-v2-icon {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  font-size: 0.5rem;
+}
+
+@media screen and (max-width: 991px) {
+  .dropdown-v2-icon {
+    display: flex;
+  }
+}
+
+.svg-icon.acc-footer-icon {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .svg-icon.acc-footer-icon {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .svg-icon.acc-footer-icon-main {
+    margin-right: -3px;
+  }
+}
+
+.rotate-180 {
+  transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg);
+  transform-style: preserve-3d;
+}
+
+.tooltip-v2__open {
+  padding: 6px 6px 6px 4px;
+  cursor: pointer;
+}
+
+.is--white {
+  color: var(--grey-white-v2);
+}
+
+.hidden-code {
+  display: none;
+}

@@ -1,0 +1,5 @@
+import * as React from "react";
+
+declare function IconClock2(props: {
+  as?: React.ElementType;
+}): React.JSX.Element;

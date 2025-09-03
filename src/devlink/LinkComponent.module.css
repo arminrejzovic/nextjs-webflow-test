@@ -1,0 +1,10 @@
+.custom-dropdown-link {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  border-radius: 24px;
+  color: var(--dark-black-v2);
+}
+
+.custom-dropdown-link:hover {
+  background-color: var(--white);
+}

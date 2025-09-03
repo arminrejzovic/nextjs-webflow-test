@@ -1,0 +1,63 @@
+/* Cookie Consent */
+#termly-code-snippet-support {
+  display: none;
+}
+/* Form elements */
+.form__label--required:after {
+  content: " *";
+  color: var(--menu-item-hover);
+}
+.form__group.is--val-error .form__validation-msg,
+.form__submit.is--val-error .form__validation-msg {
+  display: block;
+}
+.form__group.is--val-error .form__label--required {
+  color: #c02b0a;
+}
+.form__group.is--val-error .form__input,
+.form__group.is--val-error .form__select {
+  border-color: #c02b0a;
+}
+.btn--form.btn--disabled {
+  background-color: #ddd !important;
+}
+
+/* Lightbox */
+.w-lightbox-caption {
+  text-overflow: clip;
+  overflow: visible;
+  white-space: normal;
+}
+.w-lightbox-item.w-lightbox-active,
+.w-lightbox-item {
+  opacity: 1;
+}
+.w-lightbox-item:not(.w-lightbox-active) .w-lightbox-img {
+  opacity: 0.3;
+}
+@media screen and (max-width: 767px) {
+  .w-lightbox-caption {
+    font-size: 14px;
+  }
+  .w-lightbox-left,
+  .w-lightbox-right {
+    display: block;
+    background-image: none;
+  }
+}
+
+/* Forms */
+.form__select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-position: right 6px center;
+  background-size: 11px auto;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' shape-rendering='geometricPrecision' text-rendering='geometricPrecision' image-rendering='optimizeQuality' fill-rule='evenodd' clip-rule='evenodd' viewBox='0 0 512.02 319.26'%3E%3Cpath d='M5.9 48.96 48.97 5.89c7.86-7.86 20.73-7.84 28.56 0l178.48 178.48L434.5 5.89c7.86-7.86 20.74-7.82 28.56 0l43.07 43.07c7.83 7.84 7.83 20.72 0 28.56l-192.41 192.4-.36.37-43.07 43.07c-7.83 7.82-20.7 7.86-28.56 0l-43.07-43.07-.36-.37L5.9 77.52c-7.87-7.86-7.87-20.7 0-28.56z' fill='%23555'/%3E%3C/svg%3E");
+}
+
+/* Hide Original Accessibility Button */
+#INDmenu-btn {
+  display: none !important;
+}

@@ -1,0 +1,7 @@
+.body-v2 {
+  font-family: var(--body-font-v2);
+  color: var(--dark-grey-v2);
+  font-size: 1rem;
+  line-height: 200%;
+  font-weight: var(--font-weight-400);
+}

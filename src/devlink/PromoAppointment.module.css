@@ -1,0 +1,94 @@
+.h4 {
+  margin-bottom: 0.5rem;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.h4.mob--xs {
+  display: inline;
+}
+
+@media screen and (max-width: 767px) {
+  .h4.mob--xs {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .h4.mob--xs {
+    font-size: 18px;
+  }
+}
+
+.h4.h4--lower {
+  text-transform: capitalize;
+}
+
+.h4.h4--lower.h4--body-color {
+  margin-bottom: 0rem;
+  color: var(--body-color-light);
+}
+
+@media screen and (max-width: 767px) {
+  .h4.h4--lower.h4--body-color {
+    font-size: 20px;
+  }
+}
+
+.h4.h4--lower.h4--body-color {
+  margin-bottom: 0rem;
+  color: #666;
+}
+
+@media screen and (max-width: 767px) {
+  .h4.h4--lower.h4--body-color {
+    font-size: 20px;
+  }
+}
+
+.h4.h4--lower.h4--body-color {
+  margin-bottom: 0rem;
+  color: #666;
+}
+
+@media screen and (max-width: 767px) {
+  .h4.h4--lower.h4--body-color {
+    font-size: 20px;
+  }
+}
+
+.text-color--body {
+  color: var(--body-color);
+}
+
+.h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 767px) {
+  .h2 {
+    font-size: 24px;
+  }
+}
+
+.text-color--primary {
+  color: var(--primary-color);
+}
+
+.h2.text-color--primary.text--inline {
+  display: inline;
+}
+
+.text--inline {
+  display: inline;
+}
+
+.section-promo-empty {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}

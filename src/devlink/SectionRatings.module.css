@@ -1,0 +1,229 @@
+@media screen and (min-width: 1280px) {
+  .section-ratings {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .section-ratings {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+}
+
+.section--spacing-1 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+@media screen and (min-width: 1280px) {
+  .section-ratings.section--spacing-1.always-shown {
+    display: flex;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1199px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.container.section-split__container {
+  position: relative;
+  z-index: 1;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+@media screen and (max-width: 991px) {
+  .container.section-split__container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container.section-split__container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container.container--slider-mobile {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+}
+
+.container.of--hidden {
+  overflow: hidden;
+}
+
+.container.z-2 {
+  position: relative;
+  z-index: 2;
+}
+
+.container.is--block {
+  display: block;
+}
+
+.container.container--no-padd {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.container.is--relative {
+  position: relative;
+  z-index: 1;
+}
+
+.ratings {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+
+@media screen and (max-width: 767px) {
+  .ratings {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .ratings {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    grid-column-gap: 32px;
+    grid-row-gap: 32px;
+  }
+}
+
+.ratings.ratings--left {
+  display: none;
+  margin-top: 50px;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+@media screen and (min-width: 1280px) {
+  .ratings.ratings--left {
+    display: flex;
+    margin-top: auto;
+  }
+}
+
+.ratings__single {
+  display: flex;
+  width: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  border-right: 1px solid var(--menu-item-color);
+}
+
+@media screen and (max-width: 991px) {
+  .ratings__single {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ratings__single {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .ratings__single {
+    width: 100%;
+    padding-right: 10%;
+    padding-left: 10%;
+    border-right-style: none;
+  }
+}
+
+.ratings__single.last {
+  border-right-style: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .ratings__single.last.ratings__single--last {
+    padding-right: 0px;
+    padding-left: 32px;
+  }
+}
+
+.ratings__single.ratings__single--first {
+  padding-left: 0px;
+}
+
+@media screen and (min-width: 1280px) {
+  .ratings__single.ratings__single--first {
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .ratings__single.ratings__single--middle {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+}
+
+.ratings__img {
+  height: auto;
+  max-height: 80px;
+  max-width: 200px;
+  object-fit: contain;
+  object-position: 50% 50%;
+}
+
+@media screen and (max-width: 991px) {
+  .ratings__img {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ratings__img {
+    max-width: 100%;
+  }
+}
+
+.ratings__img.ratings__img--lg {
+  max-width: 240px;
+}
+
+@media screen and (max-width: 991px) {
+  .ratings__img.ratings__img--lg {
+    max-width: 220px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ratings__img.ratings__img--lg {
+    max-width: 100%;
+  }
+}
