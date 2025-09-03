@@ -1,0 +1,31 @@
+{
+  "cloud": {
+    "framework": "nextjs",
+    "project_id": "8961fae8-f8de-4058-92ae-8da287854d25"
+  },
+  "devlink": {
+    "host": "https://api.webflow.com",
+    "rootDir": "./src/devlink",
+    "relativeHrefRoot": "/",
+    "provider": true,
+    "cssModules": false,
+    "skipTagSelectors": false,
+    "components": [],
+    "envVariables": {
+      "GOOGLE_MAPS_API_KEY": "NEXT_PUBLIC_GOOGLE_MAPS_API_KEY",
+      "GOOGLE_MAPS_MAP_ID": "NEXT_PUBLIC_GOOGLE_MAPS_MAP_ID"
+    }
+  },
+  "telemetry": {
+    "devlink": {
+      "allowTelemetry": true,
+      "lastPrompted": 1754289514915,
+      "version": "1.8.13"
+    },
+    "global": {
+      "allowTelemetry": true,
+      "lastPrompted": 1756217940375,
+      "version": "1.8.36"
+    }
+  }
+}
